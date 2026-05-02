@@ -118,4 +118,4 @@ Example:
 ## Notes
 
 - The script uses `Invoke-RestMethod` with retries (`MaxRetries`, `RetryDelay`) and `TimeoutSeconds`.
-- Secrets are not intentionally printed to the console/logs. (script is written to avoid logging your Access Key / Secret Key (or the decrypted accesskey=...; secretkey=... header) on purpose—so normal status/error messages shouldn’t contain secrets.
+- Secrets are not intentionally printed to the console/logs. (script is written to avoid logging your Access Key / Secret Key (or the decrypted ```accesskey=...; secretkey=...``` header) on purpose—so normal status/error messages shouldn’t contain secrets.
